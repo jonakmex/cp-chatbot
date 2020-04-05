@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+      http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <mapping>
+        <class-a>java.util.Map</class-a>
+        <class-b>com.cpchatbot.rest.model.Request</class-b>
+        <field>
+            <a key="messenger user id">this</a>
+            <b>messengerUserId</b>
+        </field>
+        <field>
+            <a key="first name">this</a>
+            <b>firstName</b>
+        </field>
+        <field>
+            <a key="last name">this</a>
+            <b>lastName</b>
+        </field>
+        <field>
+            <a key="gender">this</a>
+            <b>gender</b>
+        </field>
+        <field>
+            <a key="profile pic url">this</a>
+            <b>profilePicUrl</b>
+        </field>
+        <field>
+            <a key="timezone">this</a>
+            <b>timezone</b>
+        </field>
+        <field>
+            <a key="locale">this</a>
+            <b>locale</b>
+        </field>
+        <field>
+            <a key="source">this</a>
+            <b>source</b>
+        </field>
+        <field>
+            <a key="last seen">this</a>
+            <b>lastSeen</b>
+        </field>
+        <field>
+            <a key="signed up">this</a>
+            <b>signedUp</b>
+        </field>
+        <!--<field>
+            <a key="request">this</a>
+            <b>id</b>
+        </field>-->
+        <field>
+            <a key="last visited block name">this</a>
+            <b>lastVisitedBlockName</b>
+        </field>
+        <field>
+            <a key="last visited block id">this</a>
+            <b>lastVisitedBlockId</b>
+        </field>
+        <field>
+            <a key="last clicked button name">this</a>
+            <b>lastClickedButtonName</b>
+        </field>
+    </mapping>
+</mappings>
