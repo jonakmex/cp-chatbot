@@ -1,5 +1,8 @@
 package com.chatfuel.port.response;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class Message {
     public String text;
     public Attachment attachment;

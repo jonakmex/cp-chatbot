@@ -29,7 +29,6 @@ public class ChatbotController {
         m.attachment.payload = new ButtonPayload();
         m.attachment.payload.buttons = new ArrayList<>();
         m.attachment.payload.buttons.add(new BlockButton("Restart",Arrays.asList("BLOCK_SAMLPE")));
-        m.text = "Welcome "+request.firstName+ " "+request.lastName;
         response.messages = Arrays.asList(m);
         return response;
     }
