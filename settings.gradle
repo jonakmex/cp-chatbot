@@ -1,0 +1,4 @@
+rootProject.name = 'cp-chatbot'
+
+include 'cp-business'
+include 'cp-rest'
