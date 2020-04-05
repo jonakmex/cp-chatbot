@@ -1,4 +1,4 @@
-package com.cpchatbot.rest.model;
+package com.chatfuel.port.request;
 
 import lombok.Data;
 

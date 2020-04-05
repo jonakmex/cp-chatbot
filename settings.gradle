@@ -1,4 +1,5 @@
 rootProject.name = 'cp-chatbot'
 
 include 'cp-business'
+include 'cp-chatfuel'
 include 'cp-rest'

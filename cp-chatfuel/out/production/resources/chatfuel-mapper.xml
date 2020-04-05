@@ -5,7 +5,7 @@
       http://dozer.sourceforge.net/schema/beanmapping.xsd">
     <mapping>
         <class-a>java.util.Map</class-a>
-        <class-b>com.cpchatbot.rest.model.Request</class-b>
+        <class-b>com.chatfuel.port.request.Request</class-b>
         <field>
             <a key="messenger user id">this</a>
             <b>messengerUserId</b>
@@ -63,4 +63,5 @@
             <b>lastClickedButtonName</b>
         </field>
     </mapping>
+
 </mappings>
